@@ -24,20 +24,20 @@ export function Messaging({ currentUser }: MessagingProps) {
   const [showResponsePopup, setShowResponsePopup] = useState(false);
   const [responseMessage, setResponseMessage] = useState('');
 
-  const sendMessage = async (userId: number, messageText: string) => {
-    try {
-      const response = await axios.post(`${API_URL}/messages`, {
-        userId,
-        text: messageText,
-        timestamp: new Date().toISOString(),
-      });
+  // const sendMessage = async (userId: number, messageText: string) => {
+  //   try {
+  //     const response = await axios.post(`${API_URL}/messages`, {
+  //       userId,
+  //       text: messageText,
+  //       timestamp: new Date().toISOString(),
+  //     });
 
-      // Lógica adicional, se necessário
-    } catch (error) {
-      console.error('Erro ao enviar mensagem:', error);
-      // Trate o erro conforme necessário
-    }
-  };
+  //     // Lógica adicional, se necessário
+  //   } catch (error) {
+  //     console.error('Erro ao enviar mensagem:', error);
+  //     // Trate o erro conforme necessário
+  //   }
+  // };
 
   const handleSendMessage = async (message: string) => {
     if (message.trim() === '') {
@@ -47,7 +47,7 @@ export function Messaging({ currentUser }: MessagingProps) {
     setDisplayedMessages([...displayedMessages, `Você: ${message}`]);
 
     try {
-      await sendMessage(currentUser.id, message);
+      // await sendMessage(currentUser.id, message);
 
       console.log('Mensagem enviada com sucesso!');
 
