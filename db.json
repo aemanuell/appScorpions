@@ -26,117 +26,93 @@
     },
     {
       "userId": 1,
-      "text": "Resposta para: pq",
-      "timestamp": "2023-11-14T02:46:45.912Z",
+      "text": "Olá, boa noite.",
+      "timestamp": "2023-11-14T03:10:16.294Z",
       "id": 3
     },
     {
       "userId": 1,
-      "text": "oi",
-      "timestamp": "2023-11-14T02:48:48.367Z",
+      "text": "Resposta para: Olá, boa noite.",
+      "timestamp": "2023-11-14T03:10:17.077Z",
       "id": 4
     },
     {
       "userId": 1,
-      "text": "Resposta para: oi",
-      "timestamp": "2023-11-14T02:48:49.175Z",
+      "text": "Como você está?",
+      "timestamp": "2023-11-14T03:10:39.987Z",
       "id": 5
     },
     {
       "userId": 1,
-      "text": "sim",
-      "timestamp": "2023-11-14T02:49:09.285Z",
+      "text": "Resposta para: Como você está?",
+      "timestamp": "2023-11-14T03:10:40.767Z",
       "id": 6
     },
     {
       "userId": 1,
-      "text": "Resposta para: sim",
-      "timestamp": "2023-11-14T02:49:10.080Z",
+      "text": "oi",
+      "timestamp": "2023-11-14T03:12:15.097Z",
       "id": 7
     },
     {
       "userId": 1,
-      "text": "onde",
-      "timestamp": "2023-11-14T02:55:08.257Z",
+      "text": "Resposta para: oi",
+      "timestamp": "2023-11-14T03:12:15.812Z",
       "id": 8
     },
     {
       "userId": 1,
-      "text": "Resposta para: onde",
-      "timestamp": "2023-11-14T02:55:09.067Z",
+      "text": "Olá, boa noite.",
+      "timestamp": "2023-11-14T03:13:08.449Z",
       "id": 9
     },
     {
       "userId": 1,
-      "text": "oi",
-      "timestamp": "2023-11-14T02:56:56.752Z",
+      "text": "Resposta para: Olá, boa noite.",
+      "timestamp": "2023-11-14T03:13:09.386Z",
       "id": 10
     },
     {
       "userId": 1,
-      "text": "Resposta para: oi",
-      "timestamp": "2023-11-14T02:56:57.540Z",
+      "text": "Como você está?",
+      "timestamp": "2023-11-14T03:13:29.033Z",
       "id": 11
     },
     {
       "userId": 1,
-      "text": "onde iremos",
-      "timestamp": "2023-11-14T02:57:14.716Z",
+      "text": "Resposta para: Como você está?",
+      "timestamp": "2023-11-14T03:13:29.772Z",
       "id": 12
     },
     {
       "userId": 1,
-      "text": "Resposta para: onde iremos",
-      "timestamp": "2023-11-14T02:57:15.547Z",
+      "text": "A aplicação está dando certo?",
+      "timestamp": "2023-11-14T03:14:04.274Z",
       "id": 13
     },
     {
       "userId": 1,
-      "text": "que horas?",
-      "timestamp": "2023-11-14T02:57:31.158Z",
+      "text": "Resposta para: A aplicação está dando certo?",
+      "timestamp": "2023-11-14T03:14:05.064Z",
       "id": 14
     },
     {
       "userId": 1,
-      "text": "Resposta para: que horas?",
-      "timestamp": "2023-11-14T02:57:31.965Z",
+      "text": "Qualquer coisa me avise",
+      "timestamp": "2023-11-14T03:16:05.588Z",
       "id": 15
     },
     {
       "userId": 1,
-      "text": "kkkdfjks\nksfkjs",
-      "timestamp": "2023-11-14T02:58:37.668Z",
+      "text": "Qualquer coisa me avise",
+      "timestamp": "2023-11-14T03:16:05.590Z",
       "id": 16
     },
     {
       "userId": 1,
-      "text": "Resposta para: kkkdfjks\nksfkjs",
-      "timestamp": "2023-11-14T02:58:38.496Z",
+      "text": "Resposta para: Qualquer coisa me avise",
+      "timestamp": "2023-11-14T03:16:06.420Z",
       "id": 17
-    },
-    {
-      "userId": 1,
-      "text": "skdjkfsjks\nksfksjf\nsfkhskfk\nsjbfsjbfsjbfsjfjsfsj\njsfjshf\nsknfksfk",
-      "timestamp": "2023-11-14T02:58:57.595Z",
-      "id": 18
-    },
-    {
-      "userId": 1,
-      "text": "Resposta para: skdjkfsjks\nksfksjf\nsfkhskfk\nsjbfsjbfsjbfsjfjsfsj\njsfjshf\nsknfksfk",
-      "timestamp": "2023-11-14T02:58:58.375Z",
-      "id": 19
-    },
-    {
-      "userId": 1,
-      "text": "skdjfks",
-      "timestamp": "2023-11-14T02:59:05.907Z",
-      "id": 20
-    },
-    {
-      "userId": 1,
-      "text": "Resposta para: skdjfks",
-      "timestamp": "2023-11-14T02:59:06.690Z",
-      "id": 21
     }
   ]
 }
