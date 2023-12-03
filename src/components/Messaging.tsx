@@ -24,21 +24,6 @@ export function Messaging({ currentUser }: MessagingProps) {
   const [showResponsePopup, setShowResponsePopup] = useState(false);
   const [responseMessage, setResponseMessage] = useState('');
 
-  // const sendMessage = async (userId: number, messageText: string) => {
-  //   try {
-  //     const response = await axios.post(`${API_URL}/messages`, {
-  //       userId,
-  //       text: messageText,
-  //       timestamp: new Date().toISOString(),
-  //     });
-
-  //     // Lógica adicional, se necessário
-  //   } catch (error) {
-  //     console.error('Erro ao enviar mensagem:', error);
-  //     // Trate o erro conforme necessário
-  //   }
-  // };
-
   const handleSendMessage = async (message: string) => {
     if (message.trim() === '') {
       return;
@@ -67,12 +52,12 @@ export function Messaging({ currentUser }: MessagingProps) {
   const generateResponse = async (userId: number, message: string, apiUrl: string) => {
     return new Promise<string>(async (resolve) => {
       try {
-        // Simule um atraso para a resposta
+        // Simula um atraso para a resposta
         setTimeout(async () => {
           const responseText = `Resposta para: ${message}`;
           resolve(responseText);
 
-          // Envie a resposta para a API e atualize o db.json
+          // Envia a resposta para a API e atualiza o db.json
           await axios.post(`${apiUrl}/messages`, {
             userId,
             text: responseText,

@@ -13,7 +13,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { Alert } from "react-native";
 
-const API_URL = 'http://192.168.1.15:3333'; // ou o IP da sua máquina se estiver usando um dispositivo físico
+const API_URL = 'http://192.168.1.15:3333'; // Endereço de IP do meu dispositivo
 
 interface Login {
   id: number;

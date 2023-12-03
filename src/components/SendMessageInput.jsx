@@ -20,12 +20,12 @@ export function SendMessageInput({ onSendMessage, currentUser }) {
       // Lógica adicional, se necessário
     } catch (error) {
       console.error('Erro ao enviar mensagem:', error);
-      // Trate o erro conforme necessário
+      // Trata o erro conforme necessário
     }
   };
 
   const handleSendMessage = async () => {
-    // Ao pressionar o botão, chama a função fornecida pelo pai para enviar a mensagem
+    // Ao pressionar o botão, chama a função fornecida pelo api para enviar a mensagem
     onSendMessage(inputMessage);
 
     // Envia a mensagem para a API

@@ -3,7 +3,7 @@ import React from 'react';
 
 type Props = ITextProps & {
   title: string;
-  style?: any; // Adicionando uma propriedade style personalizada
+  style?: any;
 };
 
 export function TextMessaging({ title, style, ...rest }: Props) {
@@ -16,9 +16,9 @@ export function TextMessaging({ title, style, ...rest }: Props) {
       px={3}
       mx={3}
       style={{
-        flex: 1, // Permitir que o componente ajuste automaticamente a largura
-        alignSelf: 'flex-start', // Alinhar o componente à esquerda
-        ...style, // Manter estilos personalizados
+        flex: 1, 
+        alignSelf: 'flex-start',
+        ...style,
       }}
       {...rest}
     >

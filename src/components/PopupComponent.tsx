@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     padding: 20,
     borderRadius: 10,
     alignItems: 'center',
-    marginTop: 50, // Ajuste para posicionar mais acima
+    marginTop: 50,
   },
   messageText: {
     fontSize: 18,
@@ -44,13 +44,13 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 0,
     right: 5,
-    backgroundColor: 'transparent', // Fundo transparente
+    backgroundColor: 'transparent',
     padding: 10,
     borderRadius: 5,
-    zIndex: 1, // Definir zIndex para garantir que o botão esteja acima do conteúdo
+    zIndex: 1,
   },
   closeButtonText: {
-    color: 'black', // Cor do texto do botão
+    color: 'black',
     fontSize: 16,
   },
 });

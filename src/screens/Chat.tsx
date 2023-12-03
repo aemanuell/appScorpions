@@ -9,8 +9,7 @@ import axios from "axios";
 
 const getCurrentUser = () => {
     return {
-      id: 2, // ou qualquer outro valor adequado
-      // outras propriedades do usuário, se houver
+      id: 2, // Substituir pelo valor adequado, salvar de acordo com cada usuário
     };
   };
 
